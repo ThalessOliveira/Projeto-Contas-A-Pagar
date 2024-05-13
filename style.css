@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #9BBEC8;
+    color: #333;
+}
+
+.container1 {
+    background-color: #427D9D;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.container {
+    background-color: #427D9D;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.alinharbody{
+    display: block;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #164863;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #9BBEC8;
+    color: #fff;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #164863;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #9BBEC8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #164863;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+th {
+    background-color: #164863;
+    color: #fff;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #164863;
+    font-weight: bold;
+}
+
+.input-style {
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-style:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3498db;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
